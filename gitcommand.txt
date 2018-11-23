@@ -283,3 +283,19 @@
   283  git stash clear
   284  git stash list
   285  history > gitcommand.txt
+  286  git status
+  287  git log --oneline
+  288  git revert e7c02ac 
+  289  git log --oneline
+  290  git status
+  291  git add .
+  292  clear
+  293  git log --oneline
+  294  git add .
+  295  git commit -m "Thirtenn commit on master"
+  296  git status
+  297  clear
+  298  git log --oneline --decorate --grapht
+  299  git log --oneline --decorate --graph
+  300  git push origin master
+  301  history > gitcommand.txt
