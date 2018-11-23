@@ -1,0 +1,285 @@
+    1  ls
+    2  sudo ls
+    3  ls -l
+    4  pwd
+    5  cd..
+    6  cd ..
+    7  ls
+    8  cd ubuntu/
+    9  sudo apt-get update
+   10  git --version
+   11  sudo apt-get update
+   12  git --version
+   13  sudo apt-get install git
+   14  git --version
+   15  history
+   16  ls -la
+   17  nano first.txt
+   18  git status
+   19  pwd
+   20  cd work
+   21  git status
+   22  pwd
+   23  cd 
+   24  cd work
+   25  lslls
+   26  ls
+   27  mkdir work
+   28  cd work
+   29  git status
+   30  git init
+   31  nano first.txt
+   32  git status
+   33  git add first.txt
+   34  git status
+   35  git commit -m "First commit on master"
+   36  nano second.txt
+   37  mkdir temp
+   38  git status
+   39  cd ..
+   40  dir
+   41  cd ubuntu/
+   42  dir
+   43  rm first.txt
+   44  dir
+   45  remove second.txt
+   46  rm second.txt 
+   47  dir
+   48  cd temp
+   49  cd ..
+   50  rm temp
+   51  rd temp
+   52  rmdir temp
+   53  dir
+   54  cd work
+   55  pwd
+   56  namo second.txt
+   57  nano second.txt
+   58  mkdir temp
+   59  git status
+   60  dir
+   61  cd temp
+   62  touch new.txt
+   63  dir
+   64  cd ..
+   65  git status
+   66  git add .
+   67  git status
+   68  git commit -m "Second commit on master"
+   69  git log
+   70  history
+   71  git status
+   72  cd work
+   73  git status
+   74  nano .gitignore
+   75  ls -la
+   76  touch test.log
+   77  git status
+   78  git add .
+   79  git status
+   80  git log --oneline
+   81  git commit -m "Sixth commit on Master"
+   82  git log --oneline
+   83  cd work
+   84  cls
+   85  clear
+   86  git log --oneline
+   87  nano first.txt
+   88  diff
+   89  git diff
+   90  clear
+   91  git status
+   92  ls
+   93  cls
+   94  clear
+   95  dir
+   96  git diff
+   97  git add .
+   98  git diff --staged
+   99  git diff
+  100  git diff --staged
+  101  cls
+  102  clear
+  103  git ls-files --stage
+  104  git commit -m "Third commit on Master"
+  105  git ls-files --stage
+  106  touch new.tx
+  107  git ls-files --stage
+  108  git add new.txt
+  109  git ls-files --stage
+  110  git status
+  111  git add .
+  112  git ls-files --stage
+  113  nano first.txt 
+  114  clear
+  115  git diff
+  116  git diff --stage
+  117  git diff -stage
+  118  history
+  119  clear
+  120  git diff
+  121  git diff --staged
+  122  git add .
+  123  git diff --staged
+  124  git diff
+  125  git commit -m "Fourth commit on master"
+  126  git status
+  127  git log --online
+  128  git log --oneline
+  129  git rm new.txt
+  130  ls
+  131  git rm new.tx 
+  132  dir
+  133  git status
+  134  ls -l
+  135  git commit -m "Fifth commit on master"
+  136  git log --oneline
+  137  git ls-files --stage
+  138  git log --online --decorate --graph
+  139  git log --oneline --decorate --graph
+  140  clear
+  141  nano second.txt 
+  142  git status
+  143  clear
+  144  git add .
+  145  git status
+  146  git rm --cached second.txt 
+  147  git status
+  148  dir
+  149  cd work
+  150  git status
+  151  pwd
+  152  cd work
+  153  clear
+  154  nano first.txt
+  155  nano newfirst.txt
+  156  git status
+  157  git status --oneline
+  158  git log --oneline
+  159  git status
+  160  git commit -m "seventh commit on Master"
+  161  git add .
+  162  git stats
+  163  git status
+  164  git commit -m "seventh commit on Master"
+  165  git log --oneline
+  166  cd work/
+  167  ls
+  168  git log --oneline
+  169  cd work
+  170  clear
+  171  git tag --a v1.0 -m "Code complete"
+  172  git tag 
+  173  git log --oneline
+  174  git log --oneline --decorate --graph
+  175  clear
+  176  git log --oneline --decorate --graph
+  177  git tag -a v0.5  a8cf03 -m "UAT Complete"a 
+  178  git tag
+  179  clear
+  180  git log --oneline --decorate --graph
+  181  git tag
+  182  git show v0.5
+  183  git show v1.0
+  184  cd workd
+  185  cd work/
+  186  clear
+  187  ls
+  188  get add remote origin https://github.com/samir711/DevOpsPlusLearning.git
+  189  git add remote origin https://github.com/samir711/DevOpsPlusLearning.git
+  190  git remote add origin https://github.com/samir711/DevOpsPlusLearning.git
+  191  git show remote
+  192  git remote -v
+  193  clear
+  194  git remote -v
+  195  git push origin master
+  196  pwd
+  197  clear
+  198  git push --tags
+  199  git push origin v0.5
+  200  cd work
+  201  history
+  202  cd work/
+  203  clear
+  204  git branch
+  205  pwd
+  206  git branch feat1
+  207  git branch
+  208  git checkout feat1
+  209  git branch
+  210  nano second.txt
+  211  git branch
+  212  dir
+  213  git branch
+  214  nano secondOnfeat1.txt
+  215  clear
+  216  ls
+  217  git status
+  218  git add .
+  219  git commit -m "First commit in feat1"
+  220  history
+  221  cler
+  222  clear
+  223  git log --oneline --decorate --graph
+  224  git checkout master
+  225  ls
+  226  git checkout feat1
+  227  ls
+  228  git checkout master
+  229  clear
+  230  ls
+  231  git branch
+  232  git merge feat1
+  233  ls -l
+  234  git log --oneline --decorate --graph
+  235  git checkout feat1
+  236  git log --oneline
+  237  git branch
+  238  CD work/
+  239  cd work/
+  240  clear
+  241  git branch
+  242  nano stashing
+  243  ls
+  244  nano first.txt 
+  245  git add .
+  246  git checkou feature1
+  247  git checkout feature1
+  248  ls
+  249  clear
+  250  git stash save "WIP for master"
+  251  git stash list
+  252  git checkout feature1
+  253  clear
+  254  git branch
+  255  clear
+  256  ls
+  257  nano first.txt
+  258  git add .
+  259  git status
+  260  clear
+  261  git stash save "WIP on feature1 branch"
+  262  git stash list
+  263  clear
+  264  git branch
+  265  git checkout master
+  266  clear
+  267  nano first.txt
+  268  git stash list
+  269  git apply stash@{1}
+  270  git stash  apply stash@{1}
+  271  nano first.txt
+  272  clear
+  273  git add .
+  274  git commit -m "Tweleth commit on master"
+  275  git log --oneline --decorate --graph
+  276  git list stash
+  277  git stash list
+  278  git stash drop stash@{1}
+  279  git stash list
+  280  history 
+  281  history > gitcommand.txt
+  282  ls
+  283  git stash clear
+  284  git stash list
+  285  history > gitcommand.txt
