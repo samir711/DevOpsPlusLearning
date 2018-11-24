@@ -1,0 +1,455 @@
+    1  ls
+    2  sudo ls
+    3  ls -l
+    4  pwd
+    5  cd..
+    6  cd ..
+    7  ls
+    8  cd ubuntu/
+    9  sudo apt-get update
+   10  git --version
+   11  sudo apt-get update
+   12  git --version
+   13  sudo apt-get install git
+   14  git --version
+   15  history
+   16  ls -la
+   17  nano first.txt
+   18  git status
+   19  pwd
+   20  cd work
+   21  git status
+   22  pwd
+   23  cd 
+   24  cd work
+   25  lslls
+   26  ls
+   27  mkdir work
+   28  cd work
+   29  git status
+   30  git init
+   31  nano first.txt
+   32  git status
+   33  git add first.txt
+   34  git status
+   35  git commit -m "First commit on master"
+   36  nano second.txt
+   37  mkdir temp
+   38  git status
+   39  cd ..
+   40  dir
+   41  cd ubuntu/
+   42  dir
+   43  rm first.txt
+   44  dir
+   45  remove second.txt
+   46  rm second.txt 
+   47  dir
+   48  cd temp
+   49  cd ..
+   50  rm temp
+   51  rd temp
+   52  rmdir temp
+   53  dir
+   54  cd work
+   55  pwd
+   56  namo second.txt
+   57  nano second.txt
+   58  mkdir temp
+   59  git status
+   60  dir
+   61  cd temp
+   62  touch new.txt
+   63  dir
+   64  cd ..
+   65  git status
+   66  git add .
+   67  git status
+   68  git commit -m "Second commit on master"
+   69  git log
+   70  history
+   71  git status
+   72  cd work
+   73  git status
+   74  nano .gitignore
+   75  ls -la
+   76  touch test.log
+   77  git status
+   78  git add .
+   79  git status
+   80  git log --oneline
+   81  git commit -m "Sixth commit on Master"
+   82  git log --oneline
+   83  cd work
+   84  cls
+   85  clear
+   86  git log --oneline
+   87  nano first.txt
+   88  diff
+   89  git diff
+   90  clear
+   91  git status
+   92  ls
+   93  cls
+   94  clear
+   95  dir
+   96  git diff
+   97  git add .
+   98  git diff --staged
+   99  git diff
+  100  git diff --staged
+  101  cls
+  102  clear
+  103  git ls-files --stage
+  104  git commit -m "Third commit on Master"
+  105  git ls-files --stage
+  106  touch new.tx
+  107  git ls-files --stage
+  108  git add new.txt
+  109  git ls-files --stage
+  110  git status
+  111  git add .
+  112  git ls-files --stage
+  113  nano first.txt 
+  114  clear
+  115  git diff
+  116  git diff --stage
+  117  git diff -stage
+  118  history
+  119  clear
+  120  git diff
+  121  git diff --staged
+  122  git add .
+  123  git diff --staged
+  124  git diff
+  125  git commit -m "Fourth commit on master"
+  126  git status
+  127  git log --online
+  128  git log --oneline
+  129  git rm new.txt
+  130  ls
+  131  git rm new.tx 
+  132  dir
+  133  git status
+  134  ls -l
+  135  git commit -m "Fifth commit on master"
+  136  git log --oneline
+  137  git ls-files --stage
+  138  git log --online --decorate --graph
+  139  git log --oneline --decorate --graph
+  140  clear
+  141  nano second.txt 
+  142  git status
+  143  clear
+  144  git add .
+  145  git status
+  146  git rm --cached second.txt 
+  147  git status
+  148  dir
+  149  cd work
+  150  git status
+  151  pwd
+  152  cd work
+  153  clear
+  154  nano first.txt
+  155  nano newfirst.txt
+  156  git status
+  157  git status --oneline
+  158  git log --oneline
+  159  git status
+  160  git commit -m "seventh commit on Master"
+  161  git add .
+  162  git stats
+  163  git status
+  164  git commit -m "seventh commit on Master"
+  165  git log --oneline
+  166  cd work/
+  167  ls
+  168  git log --oneline
+  169  cd work
+  170  clear
+  171  git tag --a v1.0 -m "Code complete"
+  172  git tag 
+  173  git log --oneline
+  174  git log --oneline --decorate --graph
+  175  clear
+  176  git log --oneline --decorate --graph
+  177  git tag -a v0.5  a8cf03 -m "UAT Complete"a 
+  178  git tag
+  179  clear
+  180  git log --oneline --decorate --graph
+  181  git tag
+  182  git show v0.5
+  183  git show v1.0
+  184  cd workd
+  185  cd work/
+  186  clear
+  187  ls
+  188  get add remote origin https://github.com/samir711/DevOpsPlusLearning.git
+  189  git add remote origin https://github.com/samir711/DevOpsPlusLearning.git
+  190  git remote add origin https://github.com/samir711/DevOpsPlusLearning.git
+  191  git show remote
+  192  git remote -v
+  193  clear
+  194  git remote -v
+  195  git push origin master
+  196  pwd
+  197  clear
+  198  git push --tags
+  199  git push origin v0.5
+  200  cd work
+  201  history
+  202  cd work/
+  203  clear
+  204  git branch
+  205  pwd
+  206  git branch feat1
+  207  git branch
+  208  git checkout feat1
+  209  git branch
+  210  nano second.txt
+  211  git branch
+  212  dir
+  213  git branch
+  214  nano secondOnfeat1.txt
+  215  clear
+  216  ls
+  217  git status
+  218  git add .
+  219  git commit -m "First commit in feat1"
+  220  history
+  221  cler
+  222  clear
+  223  git log --oneline --decorate --graph
+  224  git checkout master
+  225  ls
+  226  git checkout feat1
+  227  ls
+  228  git checkout master
+  229  clear
+  230  ls
+  231  git branch
+  232  git merge feat1
+  233  ls -l
+  234  git log --oneline --decorate --graph
+  235  git checkout feat1
+  236  git log --oneline
+  237  git branch
+  238  CD work/
+  239  cd work/
+  240  clear
+  241  git status
+  242  git branch
+  243  git status
+  244  git checkout feat1
+  245  git branch
+  246  ls
+  247  nano second.txt
+  248  git status
+  249  git branch
+  250  git add .
+  251  git commit -m "Second commit in feat1"
+  252  git status
+  253  git branch
+  254  git checkout master
+  255  git branch
+  256  clear
+  257  git branch
+  258  git merge feat1
+  259  git branch
+  260  nano second.txt
+  261  git status
+  262  git add .
+  263  git log --oneline
+  264  git commit -m "Ninth Commit on master"
+  265  git log --oneline
+  266  git status
+  267  clear
+  268  git status
+  269  clear
+  270  git log --oneline
+  271  git log --oneline --decorate --graph
+  272  git remote -v
+  273  git branch feat2
+  274  cd work/
+  275  git branch feat2
+  276  git branch
+  277  git checkout feat2
+  278  ls
+  279  git checkout master
+  280  git branch -d feat2
+  281  git branch
+  282  cd work
+  283  clear
+  284  git branch -m feat1 feature1
+  285  git branch
+  286  git push origin feat1 feature1
+  287  git push origin :feat1 feature1
+  288  cd work/
+  289  clear
+  290  pwd
+  291  git push origin master
+  292  clear
+  293  git push -u origin feat1
+  294  cd work/
+  295  clear
+  296  git branch
+  297  nano stashing
+  298  ls
+  299  nano first.txt 
+  300  git add .
+  301  git checkou feature1
+  302  git checkout feature1
+  303  ls
+  304  clear
+  305  git stash save "WIP for master"
+  306  git stash list
+  307  git checkout feature1
+  308  clear
+  309  git branch
+  310  clear
+  311  ls
+  312  nano first.txt
+  313  git add .
+  314  git status
+  315  clear
+  316  git stash save "WIP on feature1 branch"
+  317  git stash list
+  318  clear
+  319  git branch
+  320  git checkout master
+  321  clear
+  322  nano first.txt
+  323  git stash list
+  324  git apply stash@{1}
+  325  git stash  apply stash@{1}
+  326  nano first.txt
+  327  clear
+  328  git add .
+  329  git commit -m "Tweleth commit on master"
+  330  git log --oneline --decorate --graph
+  331  git list stash
+  332  git stash list
+  333  git stash drop stash@{1}
+  334  git stash list
+  335  history 
+  336  history > gitcommand.txt
+  337  ls
+  338  git stash clear
+  339  git stash list
+  340  history > gitcommand.txt
+  341  git status
+  342  git log --oneline
+  343  git revert e7c02ac 
+  344  git log --oneline
+  345  git status
+  346  git add .
+  347  clear
+  348  git log --oneline
+  349  git add .
+  350  git commit -m "Thirtenn commit on master"
+  351  git status
+  352  clear
+  353  git log --oneline --decorate --grapht
+  354  git log --oneline --decorate --graph
+  355  git push origin master
+  356  history > gitcommand.txt
+  357  git status
+  358  git add .
+  359  git add -m "Adding gitcommand.txt on master"
+  360  git commit  -m "Adding gitcommand.txt on master"
+  361  git push origin master
+  362  ls
+  363  cd work
+  364  clear
+  365  git branch
+  366  ls
+  367  nano first.txt
+  368  git add .
+  369  git commit -m "Tenth commit on master"
+  370  git log --oneline
+  371  clear
+  372  git push origin master
+  373  git pull origin master
+  374  nano first.txt
+  375  clear
+  376  git add .
+  377  git commit -m "Eleventh commit on master"
+  378  git push origin master
+  379  git log --oneline --decorate --graph
+  380  clear
+  381  sudo apt-get update
+  382  sudo apt-get install     apt-transport-https     ca-certificates     curl     software-properties-common
+  383  curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
+  384  sudo apt-key fingerprint 0EBFCD88
+  385  sudo apt-key fingerprint 0EBFCD88sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  386     $(lsb_release -cs) \
+  387     stable"
+  388  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  389     $(lsb_release -cs) \
+  390     stable"
+  391  sudo add-apt-repository    "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+  392     $(lsb_release -cs) \
+  393     stable"
+  394  sudo apt-get update
+  395  sudo apt-get install docker-ce
+  396  sudo docker --version
+  397  clear
+  398  sudo docker pull ubuntu:latest
+  399  sudo docker images
+  400  clear
+  401  sudo docker pull centos:latest
+  402  dockert images
+  403  sudo docker images
+  404  sudo usermod -aG docker ubuntu
+  405  docker images
+  406  sudo -i
+  407  docker images
+  408  sudo service docker restart
+  409  clear
+  410  sudo docker run -it --name centosC1 centos:latest /bin/bash
+  411  sudo docker ps -a
+  412  clear
+  413  sudo docker start -a -i centosC1
+  414  sudo docker ps -a
+  415  sudo docker rm d76034305515 
+  416  sudo docker ps -a
+  417  sudo docker rm 497472be70dc 
+  418  sudo doecker ps -a
+  419  sudo docker ps -a
+  420  clear
+  421  docker start -ai centosC1
+  422  sudo docker start -ai centosC1
+  423  sudo docker ps -a
+  424  sudo docker run -it --name centosC2 centos:latest /bin/bash
+  425  sudo docker restart centosC2
+  426  sudo docker ps -a
+  427  sudo docket stat
+  428  sudo docker stat
+  429  sudo docker stats
+  430  sudo docker attach centosC1
+  431  sudo docker ps
+  432  sudo docker attach centosC1
+  433  sudo docker ps
+  434  sudo docker attach centosC2
+  435  sudo docker ps
+  436  sudo docker ps -a
+  437  clear
+  438  sudo docker run -d --name webserver nginx
+  439  history > dockercommand.txt
+  440  history
+  441  dir
+  442  clear
+  443  docker pull alpine
+  444  docker run -it alpine /bin/sh
+  445  docker ps -a
+  446  docker run -it --name alpineC1 alpine /bin/sh
+  447  docker ps -a
+  448  docker start -a -i alpineC1
+  449  docker restart alpineC1
+  450  docker -a alpineC1
+  451  docker attach alpineC1
+  452  docker ps -a
+  453  history
+  454  dir
+  455  history >dockercommand-21-Nov-2018
